@@ -1,24 +1,47 @@
-ul {
-    list-style-type: none;
+
+body{
     margin: 0;
     padding: 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1;
+    padding: 1;
     overflow: hidden;
     background-color: #333;
 }
-
-li {
-    float: left;
+.contact-title{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
 }
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
 }
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+.contact-title h2{
+    font-size: 16px;
+}
+form{
+    margin-top: 50px;
+transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
 }
