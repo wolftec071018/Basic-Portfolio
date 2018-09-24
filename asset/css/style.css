@@ -83,3 +83,6 @@ input{
     padding: 1rem;
     overflow: auto;
 }
+.card__thumbnail{
+    grid-auto-flow: column;
+}
